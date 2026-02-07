@@ -73,17 +73,17 @@ CLASSIFICATION/
 - **Train**
 
 ```bash
-python CLASSIFICATION/train_numpy.py \
-    --data_set CLASSIFICATION/covtype_train.csv \
+python train_numpy.py \
+    --data_set covtype_train.csv \
     --epochs 30
 
-Logs saved in: CLASSIFICATION/logs/
+Logs saved in: logs/
 ```
 - **Evaluation**
 ```bash
-python CLASSIFICATION/eval_numpy.py \
-    --test_data CLASSIFICATION/covtype_train.csv \
-    --model_path CLASSIFICATION/forest_cover_model_numpy.pth
+python eval_numpy.py \
+    --test_data covtype_train.csv \
+    --model_path forest_cover_model_numpy.pth
 
 ```
 
@@ -91,17 +91,17 @@ python CLASSIFICATION/eval_numpy.py \
 - **Train**
 
 ```bash
-python CLASSIFICATION/train_numpy.py \
-    --data_set CLASSIFICATION/covtype_train.csv \
+python train_numpy.py \
+    --data_set covtype_train.csv \
     --epochs 30
 
-Logs saved in: CLASSIFICATION/logs/
+Logs saved in: logs/
 ```
 - **Evaluation**
 ```bash
-python CLASSIFICATION/eval_numpy.py \
-    --test_data CLASSIFICATION/covtype_train.csv \
-    --model_path CLASSIFICATION/forest_cover_model_numpy.pth
+python eval_numpy.py \
+    --test_data covtype_train.csv \
+    --model_path forest_cover_model_numpy.pth
 
 ```
 
@@ -118,8 +118,7 @@ This script:
 
 - Plots Cross-Entropy Loss vs Epochs
 
-Plots saved in: 
-CLASSIFICATION/plots/
+Plots saved in: plots/
 
 ---
 
